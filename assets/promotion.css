@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.promotion {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr)
+}
+
+
+.promotion-item{
+    padding: 5px;
+}
+
+.promotion-image img{
+    width: 100%;
+    height: auto;
+}
+
+.promotion-caption {
+    text-align: center;
+}
